@@ -3,7 +3,7 @@
 public class Problem2 {
     
     public static void main(String[] args) {
-        String str = "shivashikha";
+        String str = "shiva";
     DuplicateStr(str,0,new StringBuilder(""),new boolean[26]);    
     }
     public static void DuplicateStr(String str,int inx,StringBuilder newstr,boolean map[]){
